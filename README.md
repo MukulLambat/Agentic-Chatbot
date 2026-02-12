@@ -4,28 +4,22 @@ A chatbot built with LangChain, LangGraph, LangSmith, and MCP tools.
 
 ## Setup
 
-1. Create virtual environment:
+1. Create virtual environment using conda yaml file:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   conda env create -f environment.yaml
+   cond activate <name of conda environment> # Here name: Chatbot
    ```
 
-2. Install dependencies:
+3. Configure environment file (.env):
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Configure environment:
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your API keys
+   - create .env file
+   - copy paste the all the variables from env_example file to .env file
+   - edit .env and add your API keys
    ```
 
 4. Run the application:
    ```bash
-   python scripts/run_app.py
+   python -m src.frontend.app
    ```
 
 ## Project Structure
-
-See folder structure below for details.
