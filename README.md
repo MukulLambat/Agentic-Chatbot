@@ -1,4 +1,4 @@
-# LangChain Chatbot Project
+# Agentic Chatbot Project
 
 A chatbot built with LangChain, LangGraph, LangSmith, and MCP tools.
 
